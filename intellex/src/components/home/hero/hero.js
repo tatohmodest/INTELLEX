@@ -46,11 +46,11 @@ export default function Hero(){
                     <AnimatePresence mode="wait">
                     <motion.span 
                     key={word}
-                    initial={{opacity:0, y:20}}
-                    animate={{opacity:1, y:0}}
+                    initial={{opacity:0.5, y:20, scale:0.7}}
+                    animate={{opacity:1, y:0, scale:1}}
 
                     transition={{type:'spring', duration:0.3}}
-                    exit={{opacity:0, y:-20}}
+                    exit={{opacity:0, y:-20, scale:0.7}}
                      class="text-gradient">
                      
                      {word}
@@ -78,6 +78,27 @@ export default function Hero(){
                 
                 <div className='absolute w-38  z-10 top-80 left-72 bg-white rounded-sm shadow-md p-1 flex justify-center items-center'>
                    <FontAwesomeIcon icon={fasStar} className='text-green-300 p-1 border bg-green-100 m-1 rounded-md' />5 star Rating
+                </div>
+
+                
+                  <div className='absolute bg-white flex flex-col top-60 rounded-md shadow-md p-2 justify-center items-center'>
+                  <div className='h-10 w-10 rounded-full border-2 border-green-400'>
+                    <Image className='w-full h-full object-cover rounded-full border-green-40' width={30} height={30} src="https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/angela.svg" alt='instructores image'/>
+                </div>
+                <div className='font-bold text-sm text-center'>
+                  Angela Yu
+                </div>
+                <div className='text-xsm text-center'>
+                  Senior Developer
+                </div>
+                <div className='flex'>
+                  <FontAwesomeIcon className='scale-75 ml-1 text-green-300 bg-green-200 p-1 rounded-sm border'  icon={fasStar} />
+                  <FontAwesomeIcon className='scale-75 ml-1 text-green-300 bg-green-200 p-1 rounded-sm border'  icon={fasStar} />
+                  <FontAwesomeIcon className='scale-75 ml-1 text-green-300 bg-green-200 p-1 rounded-sm border'  icon={fasStar} />
+                  <FontAwesomeIcon className='scale-75 ml-1 text-green-300 bg-green-200 p-1 rounded-sm border'  icon={fasStar}/>
+                  <FontAwesomeIcon className='scale-75 ml-1 text-green-300 bg-green-200 p-1 rounded-sm border'  icon={fasStar}/>
+                </div>
+
                 </div>
 
                     <Image className='w-full  relative h-full -z-10' width={300 } height={300} src="https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images+(2)/angela.svg" alt='hero image 1'/>
