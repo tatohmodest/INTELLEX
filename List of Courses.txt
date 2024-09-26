@@ -1,0 +1,342 @@
+pytorch for deep learning bootcamp
+by andrei neagoie, daniel bourke
+
+linux administration bootcamp: fo from beginner to advanced
+by jason cannon
+
+the complete react native+ hooks course
+by stephen grider
+
+Full ethical hacking course 
+by liang yang loi
+
+master the coding interview :data structures + algorithms 
+by andrei neagoie
+
+github actions - the complete guide 
+by Academind by maximilian schwarzmuller , maximilian schwarzmuller
+
+
+Automate everything with python 
+by arid sulce
+
+next js: the complete developers guide 
+by stephen grider
+
+advanced css and sass: flexbox, grid , animation and more
+by jonas schmedtmann
+
+artificail intelligence A-Z 2024: build 7 AI + LLM chatGPT
+by hadelin de ponteves, kirill eremonko
+
+morden html & css from the beginning 2.0
+by brad traversy
+
+complete cybersecurity bootcamp zero to mastery 
+by aleksa tamburkovski
+
+express essential build powerful web apps with nodejs
+by jamie pittman linkedin
+
+
+linux mastery: from beginner to confident linux user 2024
+by eshgin guluzade
+
+javascript algorithm and data structure master class 
+by colt steele
+
+linux privilage escalation for oscp and beyond 
+by tib3rius
+
+server side rendering with react and redux 
+by stephen grider
+
+
+bootstrap 5 from scratch build 5 morden website 
+by brad traversy
+
+5 - in 1 Aliexpress dropship shopify store creation 2024
+by passive income gen z
+
+
+solid works 2024 essential training 
+by gabriel corbett
+
+sql and postgresql: the complete developers guide by stephen grider
+
+the complete 2024 development bootcamp 
+by angela yu 
+
+django bootcamp zero to mastery
+by dominic vacchiano
+
+docker and kubernetes: the practical guide 2023 
+by academind by maximilian schwarzmuller 
+
+react ,nodejs ,express & mongodb the mern fullstack guide 
+by maximilian schwarzmuller
+
+business data anaylytics and intelligence with python 
+by andrei neagoie, diogo alves de resende
+
+modern compute vison pytorch tensorflow2 keras & opencv4
+by rajeev d ratan
+
+excel for financial planning 
+by carl seidman linkedin 
+
+learn ethical hacking from scratch 
+by zaid sabih
+
+web security & bug bounty: learn penetration testing
+by aleksa tamburkoski nd andrei neogoi 
+
+kali linux: start your ethical hacking career with kali 
+by 
+
+
+nodejs - the complete guide (mvc , rest apis, graphql, deno) 
+by maximilian schwzmuler
+
+graphics design masterclass learn great design 
+by lindsay marsh
+
+
+the complete networking fundamentals course. your ccna start:
+by david bombal
+
+100 days of code : the complete pro bootcamp
+by angela yu
+
+visual embedded andriod (aosp) with drawing and practice 
+by by mustafa ozcelikors
+
+
+complete python bootcamp from zero to hero in python
+by jose portilla
+
+react - the complete guide 2024 
+by maximilian 
+
+
+[New] Ultimate Aws cerified AI practiconer AIf-c01
+by by stephane maarek
+
+
+ultimate aws certified solution architect associate (saa)
+by stephane maarek
+
+ultimate aws certified developer assosciate 2024 new dva c02
+by stephane maarek
+
+apache kafka course for beginners: kafka online
+by stephne maarek
+
+ultimate aws certified security specialty [2024] scs c02
+by stepane maarek
+
+[NEW] ultimate aws certified cloud practitioner clf c02
+by stephane maarek
+
+
+ultimate aws certified solution architech professional 2024
+by stephane maarek
+
+aws certified data engineer associate 2024 hands on 
+by stephane maarek
+
+TOTAL: comptiA A+ core 2( and core 1) (220-1102)
+course exam by total seminars , mike meyers
+
+ceh v12 by eccouncil
+devops by kodekloud
+
+flutter bootcamp zero to mastery
+by tadas petra
+
+flutter by angela yu
+
+the complete guide to freelancing in 2024
+ by zero to mastry 
+
+complete nodejs developer in 2024
+by adam odziemkowuski & andrei neagoie
+
+complete web & mobile designer in 2024: ui/ux, figma + more
+by andrei neagoie and daniel schifano
+
+devops bootcamp:terraform
+by andrei dumiteriscu  
+
+#########################################################################
+
+
+using this information get the following details for all this courses gather all the accurate information and make the json format of the information needed : name of course , instructor, course details , prerequistes, what you will learn , course price ,about instructor course rating , instructur rating , course duration,languauge (default for all should be english), best seller , course inclusion details , it includes (duration, certificatiate of completion, access to mobile or desktop, downloadable , article type , course content briefing , short descritp(the text after the title) and a postion to put the course image : pytorch for deep learning bootcamp
+by andrei neagoie, daniel bourke
+
+linux administration bootcamp: fo from beginner to advanced
+by jason cannon
+
+the complete react native+ hooks course
+by stephen grider
+
+Full ethical hacking course 
+by liang yang loi
+
+master the coding interview :data structures + algorithms 
+by andrei neagoie
+
+github actions - the complete guide 
+by Academind by maximilian schwarzmuller , maximilian schwarzmuller
+
+
+Automate everything with python 
+by arid sulce
+
+next js: the complete developers guide 
+by stephen grider
+
+advanced css and sass: flexbox, grid , animation and more
+by jonas schmedtmann
+
+artificail intelligence A-Z 2024: build 7 AI + LLM chatGPT
+by hadelin de ponteves, kirill eremonko
+
+morden html & css from the beginning 2.0
+by brad traversy
+
+complete cybersecurity bootcamp zero to mastery 
+by aleksa tamburkovski
+
+express essential build powerful web apps with nodejs
+by jamie pittman linkedin
+
+
+linux mastery: from beginner to confident linux user 2024
+by eshgin guluzade
+
+javascript algorithm and data structure master class 
+by colt steele
+
+linux privilage escalation for oscp and beyond 
+by tib3rius
+
+server side rendering with react and redux 
+by stephen grider
+
+
+bootstrap 5 from scratch build 5 morden website 
+by brad traversy
+
+5 - in 1 Aliexpress dropship shopify store creation 2024
+by passive income gen z
+
+
+solid works 2024 essential training 
+by gabriel corbett
+
+sql and postgresql: the complete developers guide by stephen grider
+
+the complete 2024 development bootcamp 
+by angela yu 
+
+django bootcamp zero to mastery
+by dominic vacchiano
+
+docker and kubernetes: the practical guide 2023 
+by academind by maximilian schwarzmuller 
+
+react ,nodejs ,express & mongodb the mern fullstack guide 
+by maximilian schwarzmuller
+
+business data anaylytics and intelligence with python 
+by andrei neagoie, diogo alves de resende
+
+modern compute vison pytorch tensorflow2 keras & opencv4
+by rajeev d ratan
+
+excel for financial planning 
+by carl seidman linkedin 
+
+learn ethical hacking from scratch 
+by zaid sabih
+
+web security & bug bounty: learn penetration testing
+by aleksa tamburkoski nd andrei neogoi 
+
+kali linux: start your ethical hacking career with kali 
+by 
+
+
+nodejs - the complete guide (mvc , rest apis, graphql, deno) 
+by maximilian schwzmuler
+
+graphics design masterclass learn great design 
+by lindsay marsh
+
+
+the complete networking fundamentals course. your ccna start:
+by david bombal
+
+100 days of code : the complete pro bootcamp
+by angela yu
+
+visual embedded andriod (aosp) with drawing and practice 
+by by mustafa ozcelikors
+
+
+complete python bootcamp from zero to hero in python
+by jose portilla
+
+react - the complete guide 2024 
+by maximilian 
+
+
+[New] Ultimate Aws cerified AI practiconer AIf-c01
+by by stephane maarek
+
+
+ultimate aws certified solution architect associate (saa)
+by stephane maarek
+
+ultimate aws certified developer assosciate 2024 new dva c02
+by stephane maarek
+
+apache kafka course for beginners: kafka online
+by stephne maarek
+
+ultimate aws certified security specialty [2024] scs c02
+by stepane maarek
+
+[NEW] ultimate aws certified cloud practitioner clf c02
+by stephane maarek
+
+
+ultimate aws certified solution architech professional 2024
+by stephane maarek
+
+aws certified data engineer associate 2024 hands on 
+by stephane maarek
+
+TOTAL: comptiA A+ core 2( and core 1) (220-1102)
+course exam by total seminars , mike meyers
+
+ceh v12 by eccouncil
+devops by kodekloud
+
+flutter bootcamp zero to mastery
+by tadas petra
+
+flutter by angela yu
+
+the complete guide to freelancing in 2024
+ by zero to mastry 
+
+complete nodejs developer in 2024
+by adam odziemkowuski & andrei neagoie
+
+complete web & mobile designer in 2024: ui/ux, figma + more
+by andrei neagoie and daniel schifano
+
+devops bootcamp:terraform
+by andrei dumiteriscu

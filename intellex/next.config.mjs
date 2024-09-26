@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['intellex-images.s3.eu-north-1.amazonaws.com'],
-      dangerouslyAllowSVG: true,
-      contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    },
+  reactStrictMode: true,
+  images: {
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    domains: ['intellex-images.s3.eu-north-1.amazonaws.com'],
+  },
   }
   
 export default nextConfig

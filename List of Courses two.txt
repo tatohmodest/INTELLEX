@@ -1,0 +1,624 @@
+
+NLP - Natural Language Processing with Python
+
+🌟 4.5 - 17656 votes  💰 Original Price: $74.99
+
+📖 Learn to use Machine Learning, Spacy, NLTK, SciKit-Learn, Deep Learning, and more to conduct Natural Language Processing
+
+🔊 Taught By: Jose Portilla, Pierian Training
+
+
+
+🔰 The Complete Data Structures and Algorithms Course in Python
+
+🌟 4.5 - 8433 votes  💰 Original Price: $99.99
+
+📖 100+ DSA Interview Questions for Cracking FAANG with Animated Examples for Deeper Understanding and Faster Learning
+
+
+
+💸 Ethereum and Solidity: The Complete Developer's Guide
+
+⭐ 4.6 - 22440 votes  💸 Original Price: $84.99
+
+Use Ethereum, Solidity, and Smart Contracts to build production-ready apps based on the blockchain
+
+Taught By: Stephen Grider
+
+
+💸  The Ultimate NFT Course 2024: Buy, Sell, Create & Trade NFTs
+
+⭐  4.7 - 1440 votes  💸 Original Price: $74.99
+
+NFT Training from an award-winning digital agency owner. Learn how to buy, mint, sell, create and trade NFTs in 2024
+
+Taught By: Joshua George, ClickSlice Ltd
+
+
+🔰 Next.js & React - The Complete Guide (incl. Two Paths!)
+
+🌟 4.6 - 13328 votes  💰 Original Price: $74.99
+
+Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!
+
+Taught By: Maximilian Schwarzmüller
+
+
+
+🔰 Next.js & React - The Complete Guide (incl. Two Paths!)
+
+🌟 4.6 - 13328 votes  💰 Original Price: $74.99
+
+Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!
+
+Taught By: Maximilian Schwarzmüller
+
+
+
+------------
+
+First Stop
+
+
+
+
+
+🔰 Laravel 10 Job portal application 2023 (go beginner to pro)
+
+🌟 4.3 - 23 votes  💰 Original Price: $19.99
+
+Let's learn laravel from basics and make a complete job portal web application. Enroll today for a rewarding learning.
+
+Taught By: Ranjeet Karki
+
+
+
+🔰 Metasploit Framework: Penetration Testing with Metasploit
+
+🌟 4.6 - 1045 votes  💰 Original Price: $74.99
+
+Become Hacker: Learn ethical hacking and penetration testing using Metasploit and start your cyber security career
+
+Taught By: Oak Academy, Muharrem AYDIN
+
+
+
+
+🔰 Complete FastAPI masterclass from scratch
+
+🌟 4.6 - 923 votes  💰 Original Price: $74.99
+
+Learn everything about FastApi with Python, Full Stack, OAuth2, SQLAlchemy, RESTful APIs, and practice projects
+
+Taught By: Catalin Stefan
+
+
+
+
+🔰 SocketIO v4, with websockets - the details.
+
+🌟 4.7 - 1806 votes  💰 Original Price: $74.99
+
+Socket io. Learn how to harness real-time communication on the web. W/Cluster Module, React and a real time game!
+
+Taught By: Robert Bunch
+
+
+
+
+
+🔰 Network Hacking Continued - Intermediate to Advanced
+
+🌟 4.6 - 2931 votes  💰 Original Price: $84.99
+
+Learn advanced techniques to hack into WiFi & wired networks & write own python scripts to implement custom MITM attacks
+
+Taught By: Zaid Sabih, z Security
+
+
+🔰 Graphic Design Theory - Psychology of Design
+
+🌟 4.7 - 119 votes  💰 Original Price: $84.99
+
+Unlock the Secrets of How We See and React to Visuals
+
+Taught By: Martin Perhiniak
+
+
+
+
+ Python for Data Science and Machine Learning Bootcamp
+
+🌟 4.7 - 116471 votes  💰 Original Price: $84.99
+
+Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!
+
+Taught By: Jose Portilla
+
+-------
+
+second 
+
+-----
+
+
+🔅 Framer Masterclass
+
+With our Figma assets & step-by-step instructions, you’ll soon be shipping a variation of this custom Framer landing page for your portfolio or client work.
+
+
+🔰 Build a Backend REST API with Python & Django - Advanced
+
+🌟 4.6 - 7543 votes  💰 Original Price: $74.99
+
+Create an advanced REST API with Python, Django REST Framework and Docker using Test Driven Development (TDD)
+
+
+
+
+🔰 Mastering React Native with NodeJs and MongoDB
+
+🌟 4.1 - 29 votes  💰 Original Price: $59.99
+
+Learn react native IOS & Android app development from scratch while building a real world project with tons of features
+
+Taught By: Ryan Dhungel
+
+
+
+
+🔅 JavaScript Basics for Beginners
+
+⏰ Duration: 6h     📦 100 lessons
+💰 Original Price: 59$
+👩‍🚀 Author: CodeWithMosh
+
+
+
+🔅 Mastering React
+
+⏰ Duration: 13h     📦 220 lessons
+💰 Original Price: 149$
+👩‍🚀 Author: CodeWithMosh
+
+
+
+🔰 Learn about Python and Blockchain: The Complete Guide!
+
+🌟 3.9 - 66 votes  💰 Original Price: $84.99
+
+Blockchain technology explained. Cryptocurrency, cryptography, transactions & programming in the best Blockchain course
+
+Taught By: Mammoth Interactive, John Bura
+
+
+
+
+
+🔰 REST APIs with Flask and Python in 2024
+
+🌟 4.6 - 20097 votes  💰 Original Price: $74.99
+
+Build professional REST APIs with Python, Flask, Docker, Flask-Smorest, and Flask-SQLAlchemy
+
+Taught By: Jose Salvatierra, Teclado by Jose Salvatierra
+
+
+
+
+
+🔰 TensorFlow Developer Certificate in 2023: Zero to Mastery
+
+🌟 4.6 - 7119 votes  💰 Original Price: $74.99
+
+Pass the TensorFlow Developer Certification Exam by Google. Become an AI, Machine Learning, and Deep Learning expert!
+
+Taught By: Andrei Neagoie, Daniel Bourke
+
+
+
+-------
+
+third
+
+
+----
+
+
+
+
+🔰 JavaScript: The Advanced Concepts
+
+🌟 4.8 - 12682 votes  💰 Original Price: $74.99
+
+Learn modern advanced JavaScript practices and be in the top 10% of JavaScript developers
+
+Taught By: Andrei Neagoie
+
+
+🔰 The Complete Web Developer Bootcamp - Beginner to Expert
+
+🌟 4.0 - 1975 votes  💰 Original Price: $84.99
+
+Complete web development training. Get hired by building real apps with HTML, CSS, JS, Rails in this immersive course.
+
+Taught By: Rob Dey
+
+
+
+🔰 Practical MEAN stack Mastery course
+
+🌟 4.7 - 108 votes  💰 Original Price: $49.99
+
+Learn to build a complete project end to end using MongoDB, Angular, Express, NodeJS and Bootstrap
+
+Taught By: Ranjan Pandey
+
+
+🔰 Android Hacking: Ethical Hacking for Android Apps & Devices
+
+🌟 4.4 - 219 votes  💰 Original Price: $84.99
+
+Android hack| Hacking Android, Android penetration testing, App hacking, Android Ethical Hacking for Android apps&device
+
+Taught By: Muharrem AYDIN, Fatih YILMAZ
+
+
+
+
+🔰 Android Hacking: Ethical Hacking for Android Apps & Devices
+
+🌟 4.4 - 219 votes  💰 Original Price: $84.99
+
+Android hack| Hacking Android, Android penetration testing, App hacking, Android Ethical Hacking for Android apps&device
+
+Taught By: Muharrem AYDIN, Fatih YILMAZ
+
+
+
+
+🔰 The Modern Python 3 Bootcamp
+
+🌟 4.7 - 27538 votes  💰 Original Price: $99.99
+
+A Unique Interactive Python Experience With Nearly 200 Exercises and Quizzes
+
+Taught By: Colt Steele
+
+
+
+
+🔰 Microservices with Node JS and React
+
+🌟 4.8 - 13306 votes  💰 Original Price: $84.99
+
+Build, deploy, and scale an E-Commerce app using Microservices built with Node, React, Docker and Kubernetes
+
+Taught By: Stephen Grider
+
+
+
+--------
+
+fourth
+
+-----
+
+
+🔰 Python 101 for Hackers
+
+🌟 4.7 - 31 votes  💰 Original Price: $29.99
+
+Offensive Python 101 with a focus on concepts important for ethical hacking, penetration testing and bug bounties
+
+Taught By: Riley Kidd
+
+
+
+
+🔰 The Complete JavaScript Course 2022: From Zero to Expert!
+
+🌟 4.8 - 141777 votes  💰 Original Price: $84.99
+
+The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!
+
+Taught By: Jonas Schmedtmann
+
+
+
+🔰 The Complete Ethical Hacking Course
+
+🌟 4.5 - 2732 votes  💰 Original Price: $119.99
+
+Protect yourself from hackers & cyberattacks. Learn penetration testing + build security and coding tools with Python.
+
+Taught By: Codestars by Rob Percival, Atil Samancioglu
+
+
+
+
+ Python and Django Full Stack Web Developer Bootcamp
+
+🌟 4.6 - 43511 votes  💰 Original Price: $84.99
+
+Learn to build websites with HTML , CSS , Bootstrap , Javascript , jQuery , Python 3 , and Django!
+
+Taught By: Jose Portilla
+
+
+
+
+
+🔰 Modern React with Redux
+
+🌟 4.6 - 75671 votes  💰 Original Price: $84.99
+
+Master React and Redux with React Router, Webpack, and Create-React-App. Includes Hooks!
+
+Taught By: Stephen Grider
+
+
+
+
+🔰 Complete SQL + Databases Bootcamp
+
+⏱  24.5 Hours  📦 278 Lessons
+
+Most comprehensive resource online to learn SQL and Database Management & Design + exercises to give you real-world experience working with all database types.
+
+Taught By: Mo Binni, Andrei Neagoie
+
+
+
+------
+fifth
+
+----
+
+
+🔰 The Python Mega Course: Build 10 Real World Applications
+
+🌟 4.6 - 57462 votes  💰 Original Price: $84.99
+
+Become a Python programmer by learning how to build any Python program from scratch, GUIs, web apps, APIs, and more.
+
+Taught By: Ardit Sulce
+
+
+
+
+🔰 Complete Python Bootcamp From Zero to Hero in Python
+
+⏱  22 Hours  📦 150 Lessons
+
+Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games
+
+Taught By: Jose Portilla
+
+
+
+
+🔰 The Complete Nmap Ethical Hacking Course : Network Security
+
+🌟 4.3 - 3219 votes  💰 Original Price: $99.99
+
+Become an expert in the ethical hacking and network security tool Nmap!
+
+Taught By: Nathan House
+
+
+
+
+
+
+
+
+🔰 Full Stack Web Development Bootcamp
+
+🌟 4.6 - 351 votes  💰 Original Price: $84.99
+
+Practical Full Stack Web Development Bootcamp: JavaScript, React, Python, Docker, Flask, API, Bootstrap, Git and Postman
+
+Taught By: Bogdan Stashchuk | Software Engineer, MBA, PhD
+
+
+
+
+
+🔰 Complete React Developer
+
+⏱  42.5 Hours  📦 380 Lessons
+
+Learn from React.js experts. The only React JS tutorial + projects course you need to learn React, build large-scale apps from scratch & get hired as a React Developer in 2022.
+
+Taught By: Andrei Neagoie, Yihua Zhang
+
+
+
+🔰 Complete Python Developer in 2023: Zero to Mastery
+
+🌟 4.7 - 41841 votes  💰 Original Price: $84.99
+
+How to become a Python 3 Developer and get hired! Build 12+ projects, learn Web Development, Machine Learning + more!
+
+Taught By: Andrei Neagoie, Zero To Mastery
+
+
+
+🔅 AI Fundamentals for Data Professionals
+
+🌐 Author: Sadie St. Lawrence
+🔰 Level: Intermediate
+
+⏰ Duration: 1h 7m
+
+🌀 Discover the fundamental skills, tools, and concepts of AI in this course designed for data professionals.
+
+📗 Topics: Data Science, Artificial Intelligence
+
+
+
+
+ {
+      name:
+      instructor:,
+      courseDetails:
+      
+      prerequisites: 
+      whatYouWillLearn: [
+  
+      ],
+      coursePrice: {
+        original: 129.99,
+        now: 5000,
+      },
+      aboutInstructor:
+      courseRating: 4.6,
+      courseNumberOfVotes:
+      courseOrigin://udemy or linkedin or eccouncil or .... you know what i mean 
+      instructorRating: 4.7,
+      courseDuration: "25 hours",
+      language: "English",
+      bestSeller: true,
+      courseInclusion: {
+        duration: "25 hours",
+        certificateOfCompletion: true,
+        accessOnMobileAndTV: true,
+        downloadable: true,
+        articleType: "Video",
+      },
+      courseContentBriefing:
+   shortDescription:
+    courseImage:
+    },
+
+
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/100 Days of Code – The Complete Python Pro Bootcamp for.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/5-in-1 Aliexpress Dropshipping & Shopify Store Creation 2024.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Android Hacking_ Ethical Hacking for Android Apps & Devices.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Artificial Intelligence A-Z™ 2023_ Build an AI with ChatGPT4.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Automate Everything with Python.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Bootstrap 5 From Scratch _ Build 5 Modern Websites.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Build a Backend REST API with Python & Django - Advanced.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Business Data Analytics & Intelligence with Python.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/CEHv12.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Complete Cybersecurity Bootcamp_ Zero to Mastery.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Complete FastAPI masterclass from scratch.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Complete NodeJS Developer in 2023 (GraphQL, MongoDB, + more).svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Complete Python Developer in 2023_ Zero to Mastery.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Complete React Developer.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Complete SQL + Databases Bootcamp.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Complete Web & Mobile Designer in 2022_ UI_UX.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Comptia.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/DevOps Bootcamp_ Terraform.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Django Bootcamp_ Zero to Mastery.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Django Essential Training.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Docker & Kubernetes_ The Practical Guide [2023 Edition].svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Ethereum and Solidity_ The Complete Developer's Guide.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Flutter Bootcamp_ Zero to Mastery.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Full Ethical Hacking Course.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Full Stack Web Development Bootcamp.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/GitHub Actions - The Complete Guide.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Graphic Design Masterclass - Learn GREAT Design.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Graphic Design Theory - Psychology of Design.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/JavaScript Algorithms and Data Structures Masterclass.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/JavaScript Basics for Beginners.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/JavaScript_ The Advanced Concepts.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Kali Linux_ Start Your Ethical Hacking Career with Kali.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/KodeKloud.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Laravel 10 Job portal application 2023 (go beginner to pro).svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Learn Ethical Hacking From Scratch.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Linux Administration Bootcamp_ Go from Beginner to Advanced.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Linux Mastery_ From Beginner to Confident Linux User 2024.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Linux Privilege Escalation for OSCP & Beyond.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Master the Coding Interview_ Data Structures + Algorithms.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Mastering React Native with NodeJs and MongoDB.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Mastering React.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Microservices with Node JS and React.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Modern Computer Vision™ PyTorch, Tensorflow2 Keras & OpenCV4.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Modern HTML & CSS From The Beginning 2.0.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Modern React with Redux.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/NLP - Natural Language Processing with Python.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Network Hacking Continued - Intermediate to Advanced.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Next JS_ The Complete Developer's Guide.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Next.js & React - The Complete Guide (incl. Two Paths!).svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Practical MEAN stack Mastery course.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/PyTorch for Deep Learning Bootcamp.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Python Data Structures_ Sets and Frozen Sets.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Python and Django Full Stack Web Developer Bootcamp.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Python for Data Science and Machine Learning Bootcamp.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Python in Excel.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/React - The Complete Guide (incl Hooks, React Router, Redux).svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/React, NodeJS, Express & MongoDB - The MERN Fullstack Guide.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/SOLIDWORKS 2024 Essential Training.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/SQL and PostgreSQL_ The Complete Developer's Guide.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Server Side Rendering with React and Redux.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/TensorFlow Developer Certificate in 2023_ Zero to Mastery.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Complete 2024 Web Development Bootcamp.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Complete Data Structures and Algorithms Course in Python.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Complete Ethical Hacking Course.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Complete JavaScript Course 2022_ From Zero to Expert!.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Complete Nmap Ethical Hacking Course _ Network Security.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Complete React Native + Hooks Course.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Modern Python 3 Bootcamp.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/The Ultimate NFT Course 2024_ Buy, Sell, Create & Trade NFTs.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/Web Security & Bug Bounty_ Learn Penetration Testing.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/excel for financial planning.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/express essential.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/flutter by angela.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/nodejs.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/ntroduction to MongoDB.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔅 AI Fundamentals for Data Professionals.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔅 Framer Masterclass.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 Advanced CSS and Sass_ Flexbox, Grid, Animations and More!.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 Complete Python Bootcamp From Zero to Hero in Python.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 Learn about Python and Blockchain_ The Complete Guide!.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 Metasploit Framework_ Penetration Testing with Metasploit.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 Python 101 for Hackers.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 REST APIs with Flask and Python in 2023.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 SocketIO v4, with websockets - the details.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 The Complete Web Developer Bootcamp - Beginner to Expert.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Course Pictures/🔰 The Python Mega Course_ Build 10 Real World Applications.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/angela.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/anton.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/max.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/stephane.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/zaid.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/Amazon.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/LoopingBinary.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/LoopingBinarywhite.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/Udemy.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/eccouncil.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/google.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/linkedin.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/10.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/14.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/16.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/2guysoncomputer.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/angela.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/designinterface.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/greenbox.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/greenheadgirl.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/greenpeoplewithreact.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/greenplusreact.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/guy on laptop.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/guyoncomputer (2).svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/guyoncomputer.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/guywithflyingpaint.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/guywithquestionmark.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/index.html
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/intellexFrame.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/intellexLogo.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/ladywithmicroscope.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/ladywithpuzzel.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/max.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/moneyinbag.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/moneyinglass.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/intellex_images (2)/moneyinscale.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/logos/
+https://intellex-images.s3.eu-north-1.amazonaws.com/logos/1.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/logos/2.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/logos/3.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/truststars/truststar.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/truststars/truststart5star.svg
+https://intellex-images.s3.eu-north-1.amazonaws.com/truststars/truststartempty.svg

@@ -13,7 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'intellex-green': '#00ED64',
+        'intellex-green': '#00bf63',
         'intellex-dark': '#1A1A1A',
         'intellex-light': '#E8F7FF',
         'intellex-accent': '#4A90E2',
