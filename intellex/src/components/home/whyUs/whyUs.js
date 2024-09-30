@@ -1,43 +1,36 @@
 import Image from 'next/image';
 import React from 'react';
-
+import { faLaptopCode, faUsers,faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function WhyInTelleX() {
   return (
-    <>
-      <div className='mt-40'>
-        <h1 className='text-center font-bold text-4xl text-slate-800'>Why <span className='text-gradient'>InTelleX</span> ?</h1>
-        <div className="flex h-96 why mx-16 justify-center items-stretch mt-22">
-          <article className='border-r-2 p-6 text-sm flex flex-col justify-between'>
-            <Image className='m-4' src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/arrow.svg'} width={50} height={50} alt='' />
-            <h2 className='text-xl m-4 font-bold text-slate-800'>Learn anything, anywhere</h2>
-            <ul>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Access 1000+ courses covering diverse fields</li>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Study at your own pace, on any device</li>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Flexible learning paths tailored to your goals</li>
-            </ul>
-          </article>
+   <section class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-12 text-center">
+        Why Choose <span class="text-gradient">InTelleX</span>
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
 
-          <article className='p-6 text-sm flex flex-col justify-between'>
-            <Image className='m-4' src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/certificate.svg'} width={50} height={50} alt='' />
-            <h2 className='text-xl m-4 font-bold text-slate-800'>Certification</h2>
-            <ul>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Earn industry-recognized certifications</li>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Credentials validated by 15,000+ companies worldwide</li>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Boost your resume and career prospects</li>
-            </ul>
-          </article>
-
-          <article className='border-l-2 p-6 text-sm flex flex-col justify-between'>
-            <Image className='m-4' src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/star.svg'} width={50} height={50} alt='' />
-            <h2 className='text-xl m-4 font-bold text-slate-800'>Learn from the best</h2>
-            <ul>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Expert instructors with real-world experience</li>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Engage with a community of like-minded learners</li>
-              <li><Image src={'https://intellex-images.s3.eu-north-1.amazonaws.com/icons/tick.svg'} width={10} height={10} alt='' />Exclusive InTelleX mentorship program for personalized guidance</li>
-            </ul>
-          </article>
+          <FontAwesomeIcon icon={faGraduationCap} className="text-5xl text-intellex-green mb-4"/>
+          <h3 class="text-xl font-semibold mb-2">Expert Instructors</h3>
+          <p class="text-gray-400">Learn from industry professionals with years of experience.</p>
+        </div>
+        <div class="text-center">
+    
+          <FontAwesomeIcon icon={faLaptopCode} className=" text-5xl text-intellex-blue mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Hands-on Projects</h3>
+          <p class="text-gray-400">Apply your skills with real-world projects and build your portfolio.</p>
+        </div>
+        <div class="text-center">
+         
+          <FontAwesomeIcon icon={faUsers} className="text-5xl text-intellex-accent mb-4"/>
+          <h3 class="text-xl font-semibold mb-2">Vibrant Community</h3>
+          <p class="text-gray-400">Connect with peers, mentors, and alumni for support and networking.</p>
         </div>
       </div>
-    </>
+    </div>
+  </section>
+    
   );
 }

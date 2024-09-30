@@ -31,13 +31,13 @@ export default function Hero(){
         <Fragment >
        
        
-            <main className='z-1 grid grid-cols-2 w-full h-[90vh] '>
+            <main className='z-1 px-[67px]  flex w-full h-[80vh] gradient-bg'>
 
 
               {/*first div grid*/}
-                <div className='  m-auto mt-7'>
+                <div className='  m-auto'>
 
-                  <div className=' w-[500px] p-3 text-slate-800 '>
+                  <div className='  w-[500px] p-3 '>
                     <span>Start your Learning</span>
                    
                     <h1 className='text-7xl font-bold'>
@@ -69,14 +69,18 @@ export default function Hero(){
                 </div>
 
                              {/* Hero image section  */}
-                <div className='relative z-2 w-full h-full'>
+                <div className='relative z-2  w-full h-full'>
+                <div className='w-full h-full flex flex-col justify-center items-center'>
+                <Image className='h-full object' fill src="https://intellex-images.s3.eu-north-1.amazonaws.com/HeroImages/lady2 (3).svg" alt='hero image 1'/>
+                </div>
+
                 {/* <div className='absolute bg-white flex flex-col rounded-sm shadow-md p-1 right-48 top-20 justify-start items-start'>
               <div className='flex justify-center  items-center '><FontAwesomeIcon icon={fasPeopleGroup} className='text-green-300 p-1 border bg-green-100 m-1 rounded-md' /><h1>100+ Students</h1>
               </div>
               <h2 className='text-sm font-light'>500+ members growing community</h2>
                 </div> */}
                 
-                <div className='absolute w-38  z-10 top-[400px]  left-72 bg-white rounded-md shadow-md p-2 flex justify-center items-center'>
+                <div className='absolute w-38   z-1 top-[400px]  left-72 bg-white rounded-md shadow-md p-2 flex justify-center items-center'>
                 <div className='flex justify-center  items-center '><FontAwesomeIcon icon={fasPeopleGroup} className=' p-1 border bg-intellex-green m-1 rounded-[10px]' /><h1> <strong>100+</strong> Students</h1>
                 </div></div>
 
@@ -109,14 +113,12 @@ export default function Hero(){
                   Digital Marketing Expert
                 </div>
                 <div className='flex flex-col w-28'>
-                <Image  className='w-full ' src={`https://intellex-images.s3.eu-north-1.amazonaws.com/truststars/truststart5star.svg`} width={100} height={50} alt='star'/>
+                    <Image  className='w-full h-full' src={`https://intellex-images.s3.eu-north-1.amazonaws.com/truststars/truststart5star.svg`} width={100} height={50} alt='star'/>
                 </div>
                 </div>
                 </div>
 
-                    <Image className='w-full  relative h-full -z-10' width={300 } height={300} src="https://intellex-images.s3.eu-north-1.amazonaws.com/HeroImages/lady2 (3).svg" alt='hero image 1'/>
-
-
+            
                 
                 
                 </div>

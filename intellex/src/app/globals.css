@@ -9,13 +9,13 @@
 
 
 
+ 
 body {
   font-family: 'Poppins', sans-serif;
-  /* background-color: #1A1A1A;
-  color: #E8F7FF; */
+  background-color: #1A1A1A;
+  color: #E8F7FF;
+ 
 }
-
-
 .gradient-bg {
   background: linear-gradient(135deg, #1A1A1A 0%, #2C3E50 100%);
 }
@@ -23,6 +23,10 @@ body {
   background: linear-gradient(135deg, #00ED64 0%, #3B82F6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 237, 100, 0.2);
 }
 
 /* 

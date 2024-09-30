@@ -6,7 +6,7 @@ import {faShoppingCart as fasCart, faShareNodes} from '@fortawesome/free-solid-s
 import Image from 'next/image';
 function Header() {
   return (
-     <header className="flex text-[12px] flex-col bg-white w-full z-40 sticky top-0 left-0 m-0 justify-start p-4 shadow-md">
+     <header className="flex text-[12px] flex-col bg-gray-800 w-full  top-0 left-0 m-0 justify-start p-4 shadow-md overflow-hidden ">
         
         <div className="flex justify-between items-center mb-3  gap-4 mx-16">
 

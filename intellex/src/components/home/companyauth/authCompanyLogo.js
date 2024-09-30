@@ -44,10 +44,10 @@ export default function LogoCall(){
 
 
 return(
-    <div className=" bg-white shadow-2xl h-auto mx-56 rounded-xl text-[16px] flex flex-col justify-center items-center p-16 ">
+    <div className="bg-intellex-dark shadow-2xl h-auto w-full text-[16px] flex flex-col justify-center items-center p-16 ">
      <h1 className="text-md ">High-quality training programs provided by <span className="text-gradient">leading companies</span> </h1>
       <div className="border w-full mt-2"></div>
-        <ul className=" flex mt-6 justify-center  gap-10  items-center ">
+        <ul className=" flex mt-6  justify-center  gap-10  items-center ">
             {/* {content} */}
             <li >
         <Image className="object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/Amazon.svg`} alt="image logo" width={190} height={90} />
