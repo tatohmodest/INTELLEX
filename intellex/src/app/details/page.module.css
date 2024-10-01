@@ -1,0 +1,168 @@
+.main {
+  background-color: rgb(26 26 26 /1);
+  color: white;
+}
+.head h1 {
+  /* max-width: 1250px; */
+  /* margin: 0 auto; */
+  color: rgb(0 237 100 / 1);
+  /* background: red; */
+}
+.head {
+  padding: 1em 0;
+  background-color: rgb(17 24 39 / 1);
+}
+.info {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+}
+.courseContent {
+  padding: 5em 1.5em;
+  display: flex;
+
+  color: white;
+}
+/* .courseContent p, */
+.courseContent span,
+.metaData {
+  color: rgb(209 213 219 / 1);
+}
+.rating svg {
+  color: rgb(250 204 21 / 1);
+}
+
+.rightContent,
+.leftContent {
+  width: 100%;
+}
+.rightContent img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5em;
+}
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.profile {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.leftProfile {
+  width: 9%;
+}
+
+.metaData,
+.rating {
+  display: flex;
+  align-items: center;
+}
+.metaData {
+  gap: 1em;
+}
+.rating {
+  gap: 0.5em;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.metaData div {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.courseDetails {
+  /* background-color: rgb(26 26 26 /1); */
+}
+.details {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 5em 0;
+  display: flex;
+  gap: 3em;
+}
+/* .rightD {
+  width: 35%;
+}
+.leftD {
+  width: 70%;
+} */
+.details .leftD h1 {
+  font-weight: 700;
+  font-size: 1.875em;
+  line-height: 2.25em;
+}
+.toLearn,
+.leftD,
+.point {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.points {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+}
+/* .toLearn div {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+} */
+
+.toLearn svg {
+  color: rgba(0 237 100 / 1);
+}
+
+.requirements ul {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.instructor {
+  gap: 1em;
+  display: flex;
+}
+.record p {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+.record p:first-child svg {
+  color: rgb(250 204 21 / 1);
+}
+.record p:nth-child(2) svg {
+  color: rgb(59 130 246 / 1);
+}
+.record p:last-child svg {
+  color: rgb(0 237 100 / 1);
+}
+.box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.box ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.instructor img {
+  min-width: 6em;
+  height: 6em;
+}
