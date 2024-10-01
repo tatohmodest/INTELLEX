@@ -1,5 +1,6 @@
  'use client'
 import Image from 'next/image'
+import AnimationS from './animation'
 import { AnimatePresence, motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, {Fragment, useState,useEffect} from 'react'
@@ -30,9 +31,9 @@ export default function Hero(){
     return (
         <Fragment >
        
-       
+       <AnimationS >
             <main className='z-1 px-[67px]  flex w-full h-[80vh] gradient-bg'>
-
+           
 
               {/*first div grid*/}
                 <div className='  m-auto'>
@@ -122,7 +123,9 @@ export default function Hero(){
                 
                 
                 </div>
+               
             </main>  
+            </AnimationS>
          
 
               

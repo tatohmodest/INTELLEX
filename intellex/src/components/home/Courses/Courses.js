@@ -68,7 +68,7 @@ export default function CoursesOne() {
 
   let content = <FetchLoader />;
 
-  if (isError) {
+  if (isError || !data)  {
     content = <ErrorCompany title={'Unable to fetch courses'} message={error?.message || "There was a problem fetching data please refresh"} />;
   }
 
@@ -79,89 +79,97 @@ export default function CoursesOne() {
   if (data) {
     const Data = Object.keys(data);
     const original = data[Data];
-    const Slice = original.slice(0, 8);
-
-    content = (
-      <ul className="grid grid-cols-4 text-xsm gap-5 place-content-center">
-          {Slice.map((items, index) => {
-            const displayedRating = items.courseRating >= 4.8 ? 5 : items.courseRating;
-
-            return (
-              <li
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
-                ref={el => cardRefs.current[index] = el}
-                key={index}
-                className="mb-4 w-full bg-gray-800 shadow-md relative flex flex-col rounded-lg"
-              >
-                <div className="mb-2 relative">
-                  <Image className="w-full object-cover" src={items.courseImage} width={300} height={100} alt='course' />
-                </div>
-                <div className="p-2">
-                  <div className="mb-2 rounded-md max-w-8">
-                    {items.courseOrigin === "Udemy" && (
-                      <Image className="rounded-md" src={'https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/30.svg'} width={30} height={30} alt="30x30" />
+   
+    if(Array.isArray(original)){
+      const Slice = original.slice(0, 8);
+      content = (
+        <ul className="grid grid-cols-4 text-xsm gap-5 place-content-center">
+            {Slice.map((items, index) => {
+              const displayedRating = items.courseRating >= 4.8 ? 5 : items.courseRating;
+  
+              return (
+                <li
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                  ref={el => cardRefs.current[index] = el}
+                  key={index}
+                  className="mb-4 w-full bg-gray-800 shadow-md relative flex flex-col rounded-lg"
+                >
+                  <div className="mb-2 relative">
+                    <Image className="w-full object-cover" src={items.courseImage} width={300} height={100} alt='course' />
+                  </div>
+                  <div className="p-2">
+                    <div className="mb-2 rounded-md max-w-8">
+                      {items.courseOrigin === "Udemy" && (
+                        <Image className="rounded-md" src={'https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/30.svg'} width={30} height={30} alt="30x30" />
+                      )}
+                    </div>
+                    <div className="text-sm m-1 overflow-clip truncate font-bold h-5">{items.name}</div>
+                    <div className="m-1 text-xsm truncate text-slate-500">{items.instructor}</div>
+                    <div className="flex items-center">
+                      <div className="ml-1 font-bold">{items.courseRating}</div>
+                      <div className="flex m-1 mr-2">
+                        {[1, 2, 3, 4, 5].map((value) => (
+                          <Star key={value} value={value} rating={displayedRating} />
+                        ))}
+                      </div>
+                      <div className="ml-2 text-slate-500 flex justify-center text-[10px] items-center gap-2">({items.courseNumberOfVotes} votes)</div>
+                    </div>
+                    <div className="flex gap-2 m-1 justify-between">
+                      <div className="font-bold text-sm text-intellex-green">{items.coursePrice.now} XAF</div>
+                      <div className="text-gray-400 line-through font-bold">${items.coursePrice.original}</div>
+                    </div>
+                    {items.bestSeller && (
+                      <div className="flex items-center">
+                        <div className="flex justify-between items-center text-white font-bold p-1 bg-intellex-accent">
+                          <FontAwesomeIcon icon={faCertificate} color="white" />
+                          <p className="ml-[4px]">Best Seller</p>
+                        </div>
+                      </div>
                     )}
                   </div>
-                  <div className="text-sm m-1 overflow-clip truncate font-bold h-5">{items.name}</div>
-                  <div className="m-1 text-xsm truncate text-slate-500">{items.instructor}</div>
-                  <div className="flex items-center">
-                    <div className="ml-1 font-bold">{items.courseRating}</div>
-                    <div className="flex m-1 mr-2">
-                      {[1, 2, 3, 4, 5].map((value) => (
-                        <Star key={value} value={value} rating={displayedRating} />
-                      ))}
-                    </div>
-                    <div className="ml-2 text-slate-500 flex justify-center text-[10px] items-center gap-2">({items.courseNumberOfVotes} votes)</div>
-                  </div>
-                  <div className="flex gap-2 m-1 justify-between">
-                    <div className="font-bold text-sm text-intellex-green">{items.coursePrice.now} XAF</div>
-                    <div className="text-gray-400 line-through font-bold">${items.coursePrice.original}</div>
-                  </div>
-                  {items.bestSeller && (
-                    <div className="flex items-center">
-                      <div className="flex justify-between items-center text-white font-bold p-1 bg-intellex-accent">
-                        <FontAwesomeIcon icon={faCertificate} color="white" />
-                        <p className="ml-[4px]">Best Seller</p>
+                  {hoveredIndex === index && (
+                    <div ref={detailsRef} className={`z-[2] absolute ${position === 'right' ? 'left-full' : 'right-full'} -top-20 flex-col p-8 border h-auto w-[300px] bg-gray-800 flex items-left justify-left`}>
+                      <h1 className='text-lg font-semibold mb-2'>{items.name}</h1>
+                      <div className="flex justify-between">
+                        {items.bestSeller && (
+                          <div className='flex items-center'>
+                            <div className="flex justify-between items-center text-white font-bold p-[4px] bg-intellex-green">
+                              <FontAwesomeIcon icon={faCertificate} color="white" />
+                              <p className="ml-[4px]">Best Seller</p>
+                            </div>
+                          </div>
+                        )}
+                        <h2 className="text-intellex-light text-xs px-2 py-1 rounded">{items.courseDuration}</h2>
+                      </div>
+                      <div className="text-gray-400 m-1 text-[12px]">{items.instructor}</div>
+                      <div className="text-[14px] font-bold m-1">{items.shortDescription}</div>
+                      <ul className="list-disc text-[13px] mb-2 font-sans">
+                        {items.whatYouWillLearn.map((what, key) => (
+                          <li className="m-2" key={key}>{what}</li>
+                        ))}
+                      </ul>
+                      <div className="flex gap-2 m-2">
+                        <motion.button animate={{transition:"spring"}} className="p-2 bg-intellex-green hover:bg-intellex-accent transition-all ease-in duration-300 w-[80%] font-bold text-sm">Enroll Now</motion.button>
+                        <div className="rounded-full w-9 flex flex-col justify-center items-center border text-center border-white p-1">
+                          <Favorite index={index} />
+                        </div>
                       </div>
                     </div>
                   )}
-                </div>
-                {hoveredIndex === index && (
-                  <div ref={detailsRef} className={`z-[2] absolute ${position === 'right' ? 'left-full' : 'right-full'} -top-20 flex-col p-8 border h-auto w-[300px] bg-gray-800 flex items-left justify-left`}>
-                    <h1 className='text-lg font-semibold mb-2'>{items.name}</h1>
-                    <div className="flex justify-between">
-                      {items.bestSeller && (
-                        <div className='flex items-center'>
-                          <div className="flex justify-between items-center text-white font-bold p-[4px] bg-intellex-green">
-                            <FontAwesomeIcon icon={faCertificate} color="white" />
-                            <p className="ml-[4px]">Best Seller</p>
-                          </div>
-                        </div>
-                      )}
-                      <h2 className="text-intellex-light text-xs px-2 py-1 rounded">{items.courseDuration}</h2>
-                    </div>
-                    <div className="text-gray-400 m-1 text-[12px]">{items.instructor}</div>
-                    <div className="text-[14px] font-bold m-1">{items.shortDescription}</div>
-                    <ul className="list-disc text-[13px] mb-2 font-sans">
-                      {items.whatYouWillLearn.map((what, key) => (
-                        <li className="m-2" key={key}>{what}</li>
-                      ))}
-                    </ul>
-                    <div className="flex gap-2 m-2">
-                      <motion.button animate={{transition:"spring"}} className="p-2 bg-intellex-green hover:bg-intellex-accent transition-all ease-in duration-300 w-[80%] font-bold text-sm">Enroll Now</motion.button>
-                      <div className="rounded-full w-9 flex flex-col justify-center items-center border text-center border-white p-1">
-                        <Favorite index={index} />
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </li>
-            );
-          })}
-        </ul>
-      
-    );
+                </li>
+              );
+            })}
+          </ul>
+        
+      );
+    }
+    else{
+      content = <ErrorCompany title={'Unable to fetch courses'} message={error?.message || "There was a problem fetching data please refresh"} />;
+  
+    }
+
+   
   }
 
   return (
