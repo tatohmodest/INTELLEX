@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const ParticlesBackground = () => {
+const ParticlesBackground = ({children}) => {
   useEffect(() => {
     // Load particles.js script
     const script = document.createElement('script');
@@ -56,11 +56,13 @@ const ParticlesBackground = () => {
         top: 0,
         left: 0,
         width: '100%',
-        height: '90vh',
-        zIndex: -100,
+        opacity:0.7,
+        height: '105vh',
+        zIndex: -1,
         background: 'linear-gradient(135deg, #1A1A1A  0%, #2C3E50 100%)'
       }} 
     />
+
   );
 };
 

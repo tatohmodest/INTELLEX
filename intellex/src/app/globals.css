@@ -16,6 +16,11 @@ body {
   color: #E8F7FF;
  
 }
+.blurry-background {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); 
+ 
+}
 .gradient-bg {
   background: linear-gradient(135deg, #1A1A1A 0%, #2C3E50 100%);
 }

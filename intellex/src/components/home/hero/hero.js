@@ -32,7 +32,7 @@ export default function Hero(){
         <Fragment >
        
        <AnimationS >
-            <main className='z-1 px-[67px]  flex w-full h-[80vh] gradient-bg'>
+            <main className='z-1 px-[67px]  flex w-full h-[80vh] transparent'>
            
 
               {/*first div grid*/}
@@ -72,7 +72,7 @@ export default function Hero(){
                              {/* Hero image section  */}
                 <div className='relative z-2  w-full h-full'>
                 <div className='w-full h-full flex flex-col justify-center items-center'>
-                <Image className='h-full object' fill src="https://intellex-images.s3.eu-north-1.amazonaws.com/HeroImages/lady2 (3).svg" alt='hero image 1'/>
+                <Image className='h-full object' fill src="https://intellex-images.s3.eu-north-1.amazonaws.com/HeroImages/chinagirl.svg" alt='hero image 1'/>
                 </div>
 
                 {/* <div className='absolute bg-white flex flex-col rounded-sm shadow-md p-1 right-48 top-20 justify-start items-start'>
@@ -81,12 +81,12 @@ export default function Hero(){
               <h2 className='text-sm font-light'>500+ members growing community</h2>
                 </div> */}
                 
-                <div className='absolute w-38   z-1 top-[400px]  left-72 bg-white rounded-md shadow-md p-2 flex justify-center items-center'>
+                <div className='absolute w-38   z-1 top-[400px]  left-72 bg-intellex-accent rounded-md shadow-md p-2 flex justify-center items-center'>
                 <div className='flex justify-center  items-center '><FontAwesomeIcon icon={fasPeopleGroup} className=' p-1 border bg-intellex-green m-1 rounded-[10px]' /><h1> <strong>100+</strong> Students</h1>
                 </div></div>
 
                 
-                  <div className='absolute border border-intellex-green bg-white flex flex-row top-80 rounded-md shadow-md p-2 justify-center items-center'>
+                  <div className='absolute bg-intellex-accent flex flex-row top-80 rounded-md shadow-md p-2 justify-center items-center'>
                   <div className='h-10 w-10 rounded-full border-2 border-green-400'>
                     <Image className='w-full h-full object-cover rounded-full border-green-40' width={30} height={30} src="https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/angela.svg" alt='instructores image'/>
                 </div>
@@ -102,7 +102,7 @@ export default function Hero(){
                 </div>
                 </div>
                 </div>
-                <div className='absolute bg-white flex flex-row left-96 top-40 rounded-md shadow-md p-2 justify-center items-center'>
+                <div className='absolute bg-intellex-accent flex flex-row left-96 top-40 rounded-md shadow-md p-2 justify-center items-center'>
                   <div className='h-10 w-10 rounded-full border-2 border-green-400'>
                     <Image className='w-full h-full object-cover rounded-full border-green-40' width={30} height={30} src="https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/anton.svg" alt='instructores image'/>
                 </div>

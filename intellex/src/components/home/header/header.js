@@ -11,14 +11,14 @@ function Header() {
         <div className="flex justify-between items-center mb-3  gap-4 mx-16">
 
         <div >
-           <Image className='object-cover scale-125 h-7' src={"https://intellex-images.s3.eu-north-1.amazonaws.com/logos/1.svg "} width={100} height={20} alt="intellex logo" />
+           <Image className='object-cover scale-125 h-7' src={"https://intellex-images.s3.eu-north-1.amazonaws.com/logos/intellex.svg "} width={100} height={20} alt="intellex logo" />
            
         </div>
         <div className='flex border rounded-3xl p-1'>
-        <button className='flex justify-center p-[5px] border-r-[1px] items-center gap-2 ' >
+        <button className='flex justify-center p-[5px] border-gray-300 border-r-[1px] items-center gap-2 ' >
        
        <Image 
-         src="https://intellex-images.s3.eu-north-1.amazonaws.com/Untitled+design+(11)/conectedNOde-light.svg"
+         src="https://intellex-images.s3.eu-north-1.amazonaws.com/icons/node.svg"
          height={20}
          width={20}
           alt=''
@@ -26,14 +26,14 @@ function Header() {
         All Categories
         <div>
         <Image 
-         src="https://intellex-images.s3.eu-north-1.amazonaws.com/Untitled+design+(11)/drop-downblack.svg"
+         src="https://intellex-images.s3.eu-north-1.amazonaws.com/icons/dropdownwhite.svg"
          height={10}
          width={10}
           alt=''
          />
          </div>
        </button >
-            <input className='p-2  focus:outline-none w-[500px] focus:border-transparent border-none pl-10' type="search" name='search' placeholder='search anything...'/>
+            <input className='p-2 bg-gray-800 focus:outline-none w-[500px] focus:border-transparent border-none pl-10' type="search" name='search' placeholder='search anything...'/>
          <button className='flex justify-center items-center gap-2 bg-intellex-green p-1 rounded-3xl'>
         <Image 
          src="https://intellex-images.s3.eu-north-1.amazonaws.com/Untitled+design+(11)/earch+(1).svg"
@@ -49,7 +49,7 @@ function Header() {
 
 
          <div className='flex justify-center items-center'>
-            <button className='ml-2 border   rounded-3xl p-2  hover:text-green-900  transition-all ease-in duration-300'>Sign In</button>
+            <button className='ml-2 bg-white text-black   rounded-3xl p-2  hover:text-green-900  transition-all ease-in duration-300'>Sign In</button>
             <button className='ml-3 text-white font-bold bg-black rounded-3xl p-2 hover:bg-blue-700 border  transition-all ease-in duration-300'>Get Started</button>
          </div>
 
@@ -64,7 +64,7 @@ function Header() {
         <button className='flex justify-center p-[5px] items-center gap-2 rounded-[17px] border border-slate-600 ' >
        
         <Image 
-          src="https://intellex-images.s3.eu-north-1.amazonaws.com/Untitled+design+(11)/conectedNOde-light.svg"
+          src="https://intellex-images.s3.eu-north-1.amazonaws.com/icons/node.svg"
           height={20}
           width={20}
            alt=''
@@ -72,7 +72,7 @@ function Header() {
          All Categories
          <div>
          <Image 
-          src="https://intellex-images.s3.eu-north-1.amazonaws.com/Untitled+design+(11)/drop-downblack.svg"
+          src="https://intellex-images.s3.eu-north-1.amazonaws.com/icons/dropdownwhite.svg"
           height={10}
           width={10}
            alt=''
@@ -93,7 +93,7 @@ function Header() {
             <span className='ml-2 relative'>
             
             <Image 
-          src="https://intellex-images.s3.eu-north-1.amazonaws.com/Untitled+design+(11)/favorite-black.svg "
+          src="https://intellex-images.s3.eu-north-1.amazonaws.com/icons/heartwhite.svg "
           height={20}
           width={20}
            alt=''
@@ -103,7 +103,7 @@ function Header() {
             </span>
             <span className="relative">
           <Image 
-          src="https://intellex-images.s3.eu-north-1.amazonaws.com/Untitled+design+(11)/cart-black.svg"
+          src="https://intellex-images.s3.eu-north-1.amazonaws.com/icons/cartwhite.svg"
           height={20}
           width={20}
            alt=''

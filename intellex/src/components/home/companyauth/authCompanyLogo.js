@@ -5,6 +5,7 @@ import ErrorCompany from "../errors/ErrorCompany";
 import Image from "next/image";
 import fetchLoader from "../Loadings/FetchLoader";
 import { useState } from "react";
+import AnimationS from "../hero/animation";
 
 
 export default function LogoCall(){
@@ -44,24 +45,26 @@ export default function LogoCall(){
 
 
 return(
-    <div className="bg-intellex-dark shadow-2xl h-auto w-full text-[16px] flex flex-col justify-center items-center p-16 ">
-     <h1 className="text-md ">High-quality training programs provided by <span className="text-gradient">leading companies</span> </h1>
-      <div className="border w-full mt-2"></div>
+    
+    <div className="bg-gray-800 mb-20 shadow-2xl h-auto w-full text-[16px] flex flex-col justify-center items-center p-16 ">
+     <h1 className="text-xl ">High-quality training programs provided by <span className="text-gradient">leading companies</span> </h1>
+      
         <ul className=" flex mt-6  justify-center  gap-10  items-center ">
             {/* {content} */}
             <li >
-        <Image className="object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/Amazon.svg`} alt="image logo" width={190} height={90} />
+        <Image className="object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/amazonwhite.svg`} alt="image logo" width={190} height={90} />
         </li>
         <li>
         <Image className="object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/eccouncil.svg`} alt="image logo"  width={190} height={90} />
         
         </li><li><Image className=" object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/google.svg`} alt="image logo"  width={190} height={90} />
         </li><li><Image className=" object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/linkedin.svg`} alt="image logo" width={190} height={90} />
-        </li><li><Image className=" object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/LoopingBinarywhite.svg`} alt="image logo"  width={190} height={90} />
-        </li><li><Image className=" object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/Udemy.svg`} alt="image logo" width={190} height={90} />
+        </li><li><Image className=" object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/LoopingBinary.svg`} alt="image logo"  width={190} height={90} />
+        </li><li><Image className=" object-scale-down   transition-all duration-75" src={`https://intellex-images.s3.eu-north-1.amazonaws.com/companylogos/udemywhite.svg`} alt="image logo" width={190} height={90} />
         </li>
         </ul>
         </div>
+        
    
 )
 }
