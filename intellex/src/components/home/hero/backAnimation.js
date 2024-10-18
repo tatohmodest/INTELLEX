@@ -59,7 +59,7 @@ const ParticlesBackground = ({children}) => {
         opacity:0.7,
         height: '105vh',
         zIndex: -1,
-        background: 'linear-gradient(135deg, #1A1A1A  0%, #2C3E50 100%)'
+        background: 'linear-gradient(135deg, white  55%, #dcfce7 0%, white 100%)'
       }} 
     />
 

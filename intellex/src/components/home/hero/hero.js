@@ -4,7 +4,7 @@ import AnimationS from './animation'
 import { AnimatePresence, motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, {Fragment, useState,useEffect} from 'react'
-import { faStar as fasStar, faPeopleGroup as fasPeopleGroup } from '@fortawesome/free-solid-svg-icons'
+import { faStar as fasStar, faPeopleGroup as fasPeopleGroup, faLaptopCode, faBullhorn, faSuitcase,faLightbulb, faBook  } from '@fortawesome/free-solid-svg-icons'
 export default function Hero(){
    const [word, setWord] = useState('')
   
@@ -64,8 +64,18 @@ export default function Hero(){
                     <p className='text-sm my-4'>
                     Discover a world of knowledge with our cutting-edge courses and expert instructors.
                     </p>
+                   <div className='flex gap-3  items-center'>
+                    <button className='text-green-100 hover:underline  hover:bg-intellex-accent ease-in transition-all duration-150 rounded-md bg-intellex-green p-2 mt-2 '>Get started</button>
+                    <button className='bg-green-200 hover:underline rounded-md text-intellex-green p-2 mt-2 '>Explore Courses</button>
+                  
+                  </div>
 
-                    <button className='border hover:underline bg-intellex-green p-2 mt-2 border-black'>Explore Courses</button>
+
+                  <div className='flex gap-2 mt-6 items-center'>
+                    <div className='flex gap-1 items-center justify-center text-xsm'> <FontAwesomeIcon color='#F1BF5A' icon={faBullhorn} />Public speaking   </div>
+                    <div className='flex gap-1 items-center justify-center text-xsm'><FontAwesomeIcon color='#F4876B' icon={faSuitcase} /> Career-Oriented  </div>
+                    <div className='flex gap-1 items-center justify-center text-xsm'>  <FontAwesomeIcon color='#B4708D' icon={faLightbulb} />Creative Thinking  </div>
+                  </div>
                   </div>
                 </div>
 
@@ -81,41 +91,37 @@ export default function Hero(){
               <h2 className='text-sm font-light'>500+ members growing community</h2>
                 </div> */}
                 
-                <div className='absolute w-38   z-1 top-[400px]  left-72 bg-intellex-accent rounded-md shadow-md p-2 flex justify-center items-center'>
-                <div className='flex justify-center  items-center '><FontAwesomeIcon icon={fasPeopleGroup} className=' p-1 border bg-intellex-green m-1 rounded-[10px]' /><h1> <strong>100+</strong> Students</h1>
+                <div className='absolute w-38  z-1 top-[390px]  left-72 bg-white border-intellex-green border rounded-md shadow-md p-2 flex justify-center items-center'>
+                <div className='flex justify-center  items-center '><FontAwesomeIcon icon={fasPeopleGroup} className=' text-green-100 p-1  bg-intellex-green border text-xl m-1 rounded-[10px]' /><div className='leading-4 text-start'> <div className='font-bold text-[18px] '>100+</div><div className='text-[12px] text-gray-400'>Students</div> </div>
                 </div></div>
 
                 
-                  <div className='absolute bg-intellex-accent flex flex-row top-80 rounded-md shadow-md p-2 justify-center items-center'>
-                  <div className='h-10 w-10 rounded-full border-2 border-green-400'>
-                    <Image className='w-full h-full object-cover rounded-full border-green-40' width={30} height={30} src="https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/angela.svg" alt='instructores image'/>
+                  <div className='absolute bg-white border gap-2 border-intellex-green flex flex-row top-80 rounded-md shadow-md p-2 justify-center items-center'>
+                  <div className='bg-intellex-green p-1 rounded-sm '>
+                 <FontAwesomeIcon className='text-xl  text-green-100' icon={faBook} />
+                 </div>
+                <div class="flex flex-col leading-4 ">
+                <div className='font-bold text-[18px] text-start'>
+                 Unlimited Books
                 </div>
-                <div class="flex flex-col ">
-                <div className='font-bold text-sm text-center'>
-                  Angela Yu
+                <div className='text-xsm text-gray-400 text-start'>
+                Unlimited Amazon Books
                 </div>
-                <div className='text-xsm text-center'>
-                  Senior Developer
-                </div>
-                <div className='flex flex-col w-28'>
-                <Image  className='w-full ' src={`https://intellex-images.s3.eu-north-1.amazonaws.com/truststars/truststart5star.svg`} width={100} height={50} alt='star'/>
-                </div>
+                
                 </div>
                 </div>
-                <div className='absolute bg-intellex-accent flex flex-row left-96 top-40 rounded-md shadow-md p-2 justify-center items-center'>
-                  <div className='h-10 w-10 rounded-full border-2 border-green-400'>
-                    <Image className='w-full h-full object-cover rounded-full border-green-40' width={30} height={30} src="https://intellex-images.s3.eu-north-1.amazonaws.com/Udemy_instructor/anton.svg" alt='instructores image'/>
+                <div className='absolute bg-white border border-intellex-green flex flex-row gap-2 left-96 top-40 rounded-md shadow-md p-2 justify-center items-center'>
+                  <div className='bg-intellex-green p-1 rounded-sm '>
+                 <FontAwesomeIcon className='text-xl  text-green-100' icon={faLaptopCode} />
+                 </div>
+                <div class="flex  text-start leading-5 flex-col ">
+                <div className='font-bold text-[18px] '>
+                  1K+
                 </div>
-                <div class="flex flex-col ">
-                <div className='font-bold text-[12px] text-center'>
-                  Anton Voroniuk
+                <div className='text-[12px] text-gray-500 '>
+                  online courses
                 </div>
-                <div className='text-[8px] text-center'>
-                  Digital Marketing Expert
-                </div>
-                <div className='flex flex-col w-28'>
-                    <Image  className='w-full h-full' src={`https://intellex-images.s3.eu-north-1.amazonaws.com/truststars/truststart5star.svg`} width={100} height={50} alt='star'/>
-                </div>
+               
                 </div>
                 </div>
 

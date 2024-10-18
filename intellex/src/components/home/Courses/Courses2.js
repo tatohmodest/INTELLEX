@@ -11,7 +11,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useRef, useState } from 'react';
 
-export default function CoursesOne() {
+export default function CoursesTwo() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [position, setPosition] = useState('right');
   const cardRefs = useRef([]);
@@ -22,8 +22,8 @@ export default function CoursesOne() {
 
 
   const { data, error, isLoading, isError } = useQuery({
-    queryKey: ['courses', courseTap],
-    queryFn: () => CourseRequest(courseTap)
+    queryKey: ['courses' ],
+    queryFn: () => CourseRequest()
   });
   const [clickedStates, setClickedStates] = useState([]);
 
@@ -41,6 +41,8 @@ export default function CoursesOne() {
     }
   }, [hoveredIndex]);
 
+  //favorites
+  
   const Favorite = ({ index }) => {
     const isClicked = clickedStates[index];
 
@@ -59,40 +61,8 @@ export default function CoursesOne() {
       />
     );
   };
-  const courseList = [
 
-    {
-      name:'All Categories',
-      description:'Discover our carefully curated selection of top-rated courses designed to enhance your skills and career prospects. Each course is led by industry experts and offers practical insights, ensuring you gain valuable, real-world knowledge. Join thousands of learners who have transformed their careers with our best-selling courses, and take the next step in your professional journey today',
-      subtitle:'Learn New Skills and expand you career opportunities'
-    },
-    {
-      name: 'Python',
-      description: 'Learn one of the most versatile and popular programming languages used in web development, data science, AI, and more.',
-      subtitle: 'Unlock the power of AI and data with Python'
-    },
-    {
-      name: 'JavaScript',
-      description: 'Master the language of the web. Build interactive websites and modern web applications.',
-      subtitle: 'Power up your web development skills'
-    },
-    {
-      name: 'Graphic Design',
-      description: 'Unleash your creativity and learn to create stunning visual content for print and digital media.',
-      subtitle: 'Transform your ideas into visual masterpieces'
-    },
-    {
-      name: 'Web Development',
-      description: 'Become a full-stack web developer. Learn to build responsive and dynamic websites from front to back.',
-      subtitle: 'Build the websites of tomorrow, today'
-    },
-    {
-      name: 'Ethical Hacking',
-      description: 'Explore the world of cybersecurity. Learn to identify and fix vulnerabilities in computer systems and networks.',
-      subtitle: 'Secure the digital world, one hack at a time'
-    }
-  ];
-  
+  //stars
   const Star = ({ value, rating }) => {
     if (value <= rating) {
       return <FontAwesomeIcon icon={fasStar} className="text-yellow-400" />;
@@ -123,12 +93,11 @@ export default function CoursesOne() {
 
       let filteredCourses = original;
 
-      if (courseTap !== "All Categories") {
         filteredCourses = original.filter((course) => {
          
-          return course.courseDetails.toLowerCase().includes(courseTap.toLowerCase());
+          return course.courseRating >= 4.7;
         });
-      }
+      
   
       const Slice = filteredCourses.slice(0, 4);
 
@@ -224,61 +193,23 @@ export default function CoursesOne() {
   }
 
   return (
-    <div className="flex mt-20 flex-col justify-center px-[67px] items-stretch">
-      <div className=" mx-[auto] px-4">
-        <div className="mb-12  text-start">
-        <h2 className="text-md  font-bold ">
-          Featured <span className="text-gradient">Courses</span>
+
+    <div className="flex mt-20 flex-col bg-blue-100 justify-center px-[67px] items-stretch">
+    
+        <h2 className="text-4xl  font-bold">
+          Top <span className="text-gradient">Rated Picks </span>
         </h2>
-        <p className="m-1 mb-4 text-4xl font-bold">Curated Just for You: Learn from Industry Experts</p>
-        <ul className="flex m-4 gap-3">
-         {
-          courseList.map((course)=>{
-            return(
-              
-               <li className={`p-1 border-b-4 cursor-pointer ${course.name === courseTap ? 'border-intellex-blue':null} `  }
-               key={course}
-               onClick={()=>setcourseTap(course.name)}
-               >
-                 
-                 {course.name}
-               </li>
+        <p className="text-gray-600">
+    Learner-approved courses to fast-track your success.
+  </p>
+       
+        <div className="flex justify-start items-start">
+            <button className="p-2 rounded-md mb-3 bg-intellex-accent text-blue-100 flex justify-center ">expore more</button>
+        </div>
 
-              
-            )
-          })
-         }
-         </ul>
-
-
-        {
-
-          courseList.map((course, index)=>{
-
-            return(
-             <>
-
-             { course.name === courseTap ?
-              
-<div className="border  p-4">
-        <h1 className="font-bold text-[24px] m-2">{course.subtitle}</h1>
-        <p  className="text-xsm mb-8 m-1">{course.description}</p>
-         <buton className="border cursor-pointer m-3 border-gray-400 p-2 " >
-          Explore {course.name}
-         </buton>
-         <div className="mt-7">
+          
       {content}
-      </div>
-      </div> : null
-
-}
-      </>
-            )
-          })
-        }
-      
-      </div>
-      </div>
+    
     </div>
   );
 }

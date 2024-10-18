@@ -12,8 +12,8 @@
  
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #1A1A1A;
-  color: #E8F7FF;
+  background-color: white;
+  color: #1A1A1A;
  
 }
 .blurry-background {
@@ -29,10 +29,53 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* .bg-gradient:hover{
+  background: #3B82F6;
+  color:#ffffff;
+  font-style: bold;
+  transition: all ease-in 0.2s;
+} */
 .card-hover:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 237, 100, 0.2);
 }
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0) 100%);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.bg-gradient {
+  position: relative;
+ 
+ 
+  text-align: center;
+
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #3B82F6;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #3B82F6;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #3B82F6;
+}
+
+.bg-gradient:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #3B82F6;
+}
+
+.bg-gradient:active {
+  transform: scale(0.9);
+}
+
 
 /* 
 .body {
@@ -333,7 +376,7 @@ body {
   position: absolute;
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(50, 185, 106, 0.52);
   padding: 6px 12px;
   border-radius: 20px;
   opacity: 0.4;
@@ -342,7 +385,7 @@ body {
 }
 .skill-line {
   position: absolute;
-  background: linear-gradient(90deg, rgba(0,237,100,0.1) 0%, rgba(59,130,246,0.1) 100%);
+  background: linear-gradient(90deg, rgba(50, 185, 106, 0.1) 0%, rgba(59,130,246,0.1) 100%);
   height: 1px;
   opacity: 0.4;
   transform-origin: left center;

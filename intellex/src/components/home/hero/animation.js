@@ -102,7 +102,7 @@ export default function AnimationS({children}) {
   return (
     <div className='body'>
       <ParticlesBackground  />
-    <div className="hero blurry-background">
+    <div className="hero ">
       <div className="background" ref={backgroundRef}></div>
       <div className='content'>
       { children}
