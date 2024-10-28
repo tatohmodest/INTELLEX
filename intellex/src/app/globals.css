@@ -29,7 +29,30 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.text-gradienttwo {
+  background: linear-gradient(135deg, #00ED64 0%, #3B82F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
 
+.scrollbar::-webkit-scrollbar{
+  display: none;
+}
+.scrollbar{
+  -ms-overflow-scroll:none;
+  scrollbar-width: none;
+}
+.testyflex{
+  flex:0 0 400px;
+  max-height: 350px;
+}
+
+.gridtemplate-2{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
 /* .bg-gradient:hover{
   background: #3B82F6;
   color:#ffffff;

@@ -194,7 +194,7 @@ export default function CoursesTwo() {
 
   return (
 
-    <div className="flex mt-20 flex-col bg-blue-100 justify-center px-[67px] items-stretch">
+    <div className="flex mt-20 flex-col bg-blue-100 py-8 justify-center px-[67px] items-stretch">
     
         <h2 className="text-4xl  font-bold">
           Top <span className="text-gradient">Rated Picks </span>
